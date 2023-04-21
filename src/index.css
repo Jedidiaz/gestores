@@ -1,13 +1,69 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* header a bar */
+
+.under_a_bar_main{
+  width: 100%;
+  height: 3px;
+  border-radius: 20px ;
+  transition: 0.2s ease;
 }
+
+.a_bar_main:hover  .under_a_bar_main{
+  /* background-color: #1f2154; */
+  background-color: #383e91;
+}
+
+/* footer styles */
+
+.iconsFooters{
+  width: 100px;
+  cursor: pointer;
+}
+
+.iconsFooters:hover{
+  transform: scale(1.05);
+  transition: 0.1s ease;
+}
+
+.hiperVinculosFooter{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hiperVinculosFooter a, .terminos {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.separeHorizontal{
+  margin: 15px 0;
+  border-top: 2px solid #000;
+  opacity: 0.4;
+}
+
+.separe{
+  width: 1px;
+  height: 24px;
+  background-color: #000;
+  opacity: 0.40;
+}
+
+.terminos{
+  font-size: 16px !important;
+}
+
+
+

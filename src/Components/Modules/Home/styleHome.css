@@ -1,0 +1,197 @@
+/* Home styles */
+.card_sesion_1 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(56, 62, 145, 1) 0%,
+    rgba(31, 33, 84, 1) 100%
+  );
+  border-radius: 20px;
+}
+
+.descriptionSesion1 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 50px;
+}
+
+.infoSection2 {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  align-items: center;
+}
+
+.imgSection2Phone,
+.cardInfoSection2Main {
+  width: 100%;
+}
+
+.cardInfoSection2Main {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid rgba(56, 62, 145, 1);
+  background-color: #fff;
+}
+
+.cardInfoSection2 {
+  display: flex;
+  border-bottom: 1px solid rgba(56, 62, 145, 0.3);
+  text-align: start;
+  align-items: center;
+}
+
+.cardInfoSection2 img {
+  width: 200px;
+}
+
+.cardInfoSection2 span {
+  padding: 10px;
+}
+
+.cardInfoSection2 span p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.cardInfoSection2 span h4 {
+  font-weight: 600;
+}
+
+.section3Nosotros {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.cardSection4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardSection4 {
+  border-radius: 30px;
+  background: #f7f7f7;
+}
+
+.DotSection4 {
+  background: linear-gradient(
+    90deg,
+    rgba(56, 62, 145, 1) 0%,
+    rgba(31, 33, 84, 1) 100%
+  );
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+
+.content_cards_Section5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cardSection5{
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: start;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.cardSection5 p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cardSection5 img{
+    width: 120px;
+    margin-left: -10px;
+}
+
+.cardSection5:hover{
+    transform: scale(1.02);
+    transition: 0.1s ease;
+}
+
+.section6{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: start;
+}
+
+.listSection6{
+    display: flex;
+    gap: 20px; 
+}
+
+.descrioptionSection6 p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* responsive */
+@media screen and (min-width: 1024px) {
+  .card_sesion_1 {
+    flex-direction: row;
+  }
+
+  .imageSesion1,
+  .descriptionCardSection4  {
+    width: 60%;
+  }
+
+  .descriptionSesion1,
+  .imgSection4 {
+    width: 40%;
+  }
+
+  .infoSection2 {
+    flex-direction: row;
+  }
+
+  .cardInfoSection2Main {
+    width: 45%;
+  }
+
+  .imgSection2Phone {
+    width: 55%;
+  }
+
+  .section3Nosotros,
+  .cardSection4, .section6 {
+    flex-direction: row;
+  }
+
+  .imgSection3,
+  .descriptionSecttion3,
+  .descrioptionSection6,
+  .imgSection6 {
+    width: 50%;
+  }
+
+  .descrioptionSection6 p{
+      max-width: 550px;
+  }
+
+}
