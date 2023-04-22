@@ -13,6 +13,7 @@ function Footer() {
       gap: "10px",
       width: "100%",
       justifyContent: "space-between",
+      flexDirection: 'column',
       padding: '60px 0 0 0'
     },
     styleHiperVinculos: {

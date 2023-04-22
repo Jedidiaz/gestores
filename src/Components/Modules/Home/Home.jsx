@@ -42,6 +42,7 @@ const Home = () => {
           justifyContent: "center",
           flexDirection: "column",
           alignItems: "center",
+          paddingTop: '100px'
         }}
       >
         {/* section 1 */}
@@ -49,7 +50,7 @@ const Home = () => {
           <article style={styles.styleCardSesion1} className="card_sesion_1">
             {/* description */}
             <div className="descriptionSesion1">
-              <p style={{ marginBottom: "10%", color: "#fff" }}>
+              <p style={{ marginBottom: "2%", color: "#fff" }}>
                 Llegaste al lugas que estabas buscando
               </p>
               <h1 style={{ fontWeight: "600" }}>
@@ -66,7 +67,7 @@ const Home = () => {
               <div
                 style={{
                   display: "flex",
-                  gap: "25px",
+                  gap: "10px",
                   alignItems: "center",
                   marginTop: "20px",
                 }}
@@ -115,7 +116,7 @@ const Home = () => {
             </h2>
             <div className="infoSection2">
               <div className="imgSection2Phone">
-                <img src={phone} style={{ width: "100%" }} />
+                <img src={phone} style={{ width: "100%" }} className="PhoneAnimation" />
               </div>
               <article style={{}} className="cardInfoSection2Main">
                 <div className="cardInfoSection2">
@@ -167,7 +168,7 @@ const Home = () => {
         <section style={{ width: "100%" }}>
           <div
             className="container"
-            style={{ textAlign: "center", padding: "40px 0" }}
+            style={{ textAlign: "center", padding: "40px 10px" }}
           >
             <p style={{ margin: "0" }}>¿Quienes somos?</p>
             <h2 style={{ fontWeight: "700", fontSize: "50px" }}>Nosotros</h2>
@@ -199,10 +200,10 @@ const Home = () => {
           <article className="cardSection4">
             <div
               className="descriptionCardSection4"
-              style={{ paddingLeft: "5%" }}
+              style={{ padding: "5%" }}
             >
               <h2 style={{ fontWeight: "700" }}>Visita nuestra oficina</h2>
-              <div style={{ display: "flex", gap: "10px" }}>
+              <div style={{ display: "flex", flexDirection: 'column',gap: "10px" }} className="section4Card">
                 <div
                   style={{
                     height: "50px",
@@ -210,7 +211,7 @@ const Home = () => {
                   }}
                   className="DotSection4"
                 ></div>
-                <h4 style={{ fontWeight: "600", maxWidth: "450px" }}>
+                <h4 style={{ fontWeight: "600", maxWidth: "380px" }}>
                   Barranquilla: Coworking calle 59 barrio El Prado
                 </h4>
                 <Link to={"/"}>Cómo llego</Link>
