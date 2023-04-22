@@ -49,7 +49,7 @@ function Header() {
 
   return (
     <>
-      <header style={{width:'100%', position: 'fixed', background: '#fff'}} >
+      <header style={{width:'100%', position: 'fixed', background: '#fff', zIndex: '10'}} >
         <nav style={styles.styleHeader} className="container">
           <div style={{ height: "100%" }}>
             <img
