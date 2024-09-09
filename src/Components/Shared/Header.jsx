@@ -51,11 +51,11 @@ function Header() {
     <>
       <header style={{width:'100%', position: 'fixed', background: '#fff', zIndex: '10'}} >
         <nav style={styles.styleHeader} className="container">
-          <div style={{ height: "100%" }}>
+          <div style={{ height: "100%", display: "flex", alignItems: "center" }}>
             <img
               src={logo}
               alt="Gestores"
-              style={{ height: "100%", cursor: "pointer" }}
+              style={{ cursor: "pointer", objectFit: "contain", width: 200 }}
               onClick={() => navegar("/")}
             />
           </div>

@@ -5,6 +5,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: all .5s ease-in-out;
 }
 
 /* header a bar */
@@ -64,7 +65,7 @@ body {
 /* footer styles */
 
 .iconsFooters{
-  width: 100px;
+  width: 50px;
   cursor: pointer;
 }
 

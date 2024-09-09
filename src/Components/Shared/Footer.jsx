@@ -13,19 +13,14 @@ function Footer() {
       gap: "10px",
       width: "100%",
       justifyContent: "space-between",
-      flexDirection: 'column',
-      padding: '60px 0 0 0'
+      flexDirection: "column",
+      padding: "60px 0 0 0",
     },
     styleHiperVinculos: {
       display: "flex",
       gap: "40px",
       alignItems: "center",
     },
-    styleTerminos: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      padding: '0 0 20px 0'
-    }
   };
 
   return (
@@ -48,21 +43,37 @@ function Footer() {
               </ul>
             </div>
             <div className="icons_footer">
-              <img src={wp} alt="whatsapp" className="iconsFooters" />
-              <img src={ig} alt="instagram" className="iconsFooters" />
-              <img src={fb} alt="facebook" className="iconsFooters" />
-              <img src={tt} alt="tiktok" className="iconsFooters" />
+              <Link to="https://www.instagram.com/gestores.co/" target="_blank">
+                <img src={ig} alt="instagram" className="iconsFooters" />
+              </Link>
+              <Link to="https://www.instagram.com/gestores.co/" target="_blank">
+                <img src={wp} alt="instagram" className="iconsFooters" />
+              </Link>
+              <Link to="https://www.instagram.com/gestores.co/" target="_blank">
+                <img src={fb} alt="instagram" className="iconsFooters" />
+              </Link>
+              <Link to="https://www.instagram.com/gestores.co/" target="_blank">
+                <img src={tt} alt="instagram" className="iconsFooters" />
+              </Link>
             </div>
           </div>
           <hr className="separeHorizontal" />
-          <div style={styles.styleTerminos}>
-            <Link to={"/"} className="terminos">Gestores Inmobiliarios del casibe S.A.S.</Link>
+          <div className="footer_links" >
+            <Link to={"/"} className="terminos">
+              Gestores Inmobiliarios del casibe S.A.S.
+            </Link>
             <div className="separe"></div>
-            <Link to={"/"} className="terminos">Todos los derechos reservados.</Link>
+            <Link to={"/"} className="terminos">
+              Todos los derechos reservados.
+            </Link>
             <div className="separe"></div>
-            <Link to={"/"} className="terminos">Terminos y condiciones</Link>
+            <Link to={"/"} className="terminos">
+              Terminos y condiciones
+            </Link>
             <div className="separe"></div>
-            <Link to={"/"} className="terminos">Cookies</Link>
+            <Link to={"/"} className="terminos">
+              Cookies
+            </Link>
           </div>
         </div>
       </footer>

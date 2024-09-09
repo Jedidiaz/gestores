@@ -118,9 +118,9 @@ const Home = () => {
               <div className="imgSection2Phone">
                 <img src={phone} style={{ width: "100%" }} className="PhoneAnimation" />
               </div>
-              <article style={{}} className="cardInfoSection2Main">
+              <article className="cardInfoSection2Main">
                 <div className="cardInfoSection2">
-                  <img src={iconLotes} />
+                  <img src={iconLotes} className="icons_section2" />
                   <span>
                     <h4>Lotes (terrenos)</h4>
                     <p>
@@ -129,14 +129,14 @@ const Home = () => {
                   </span>
                 </div>
                 <div className="cardInfoSection2">
-                  <img src={iconCasas} />
+                  <img src={iconCasas} className="icons_section2" />
                   <span>
                     <h4>Casas o apartamentos</h4>
                     <p>Encuentra el hogar de tus sueños con nosotros.</p>
                   </span>
                 </div>
                 <div className="cardInfoSection2">
-                  <img src={iconArriendos} />
+                  <img src={iconArriendos} className="icons_section2" />
                   <span>
                     <h4>Arriendos</h4>
                     <p>
@@ -145,7 +145,7 @@ const Home = () => {
                   </span>
                 </div>
                 <div className="cardInfoSection2">
-                  <img src={iconLocales} />
+                  <img src={iconLocales} className="icons_section2" />
                   <span>
                     <h4>Locales comerciales</h4>
                     <p>
@@ -154,7 +154,7 @@ const Home = () => {
                   </span>
                 </div>
                 <div className="cardInfoSection2" style={{ border: "0" }}>
-                  <img src={iconCoworking} />
+                  <img src={iconCoworking} className="icons_section2" />
                   <span>
                     <h4>Coworking u Oficina</h4>
                     <p>Trabaja en un ambiente colaborativo y dinámico.</p>
@@ -292,7 +292,7 @@ const Home = () => {
                   <div
                     className="DotSection4"
                     style={{ width: "50px", height: "50px" }}
-                  ></div>
+                  >&nbsp;</div>
                   <p>
                     Contamos con una amplia red de{" "}
                     <span style={{ fontWeight: "700" }}>contactos</span> en el
@@ -303,7 +303,7 @@ const Home = () => {
                   <div
                     className="DotSection4"
                     style={{ width: "50px", height: "50px" }}
-                  ></div>
+                  >&nbsp;</div>
                   <p>
                     <span style={{ fontWeight: "700" }}>Experiencia</span> en la
                     negociación de precios y condiciones de venta.
@@ -313,7 +313,7 @@ const Home = () => {
                   <div
                     className="DotSection4"
                     style={{ width: "50px", height: "50px" }}
-                  ></div>
+                  >&nbsp;</div>
                   <p>
                     Asesoría, manejo y{" "}
                     <span style={{ fontWeight: "700" }}>permiso legal</span> en
@@ -324,7 +324,7 @@ const Home = () => {
                   <div
                     className="DotSection4"
                     style={{ width: "50px", height: "50px" }}
-                  ></div>
+                  >&nbsp;</div>
                   <p>
                     <span style={{ fontWeight: "700" }}>Ahorro de tiempo</span>{" "}
                     y esfuerzo en la gestión de la transacción.
@@ -334,7 +334,7 @@ const Home = () => {
                   <div
                     className="DotSection4"
                     style={{ width: "50px", height: "50px" }}
-                  ></div>
+                  >&nbsp;</div>
                   <p>
                     Dependiendo de la disponibilidad, se realiza un{" "}
                     <span style={{ fontWeight: "700" }}>
@@ -348,8 +348,7 @@ const Home = () => {
                 <span className="listSection6">
                   <div
                     className="DotSection4"
-                    style={{ width: "50px", height: "50px" }}
-                  ></div>
+                  >&nbsp;</div>
                   <p>
                     Trabajamos junto con una agencia especializada en <span>marketing
                     y publicidad</span>, <Link to={"/"}>Sora Baq</Link>, la cual nos ayuda a aumentar el
